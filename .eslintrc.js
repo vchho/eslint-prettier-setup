@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 module.exports = {
   env: {
     browser: true,
@@ -20,5 +21,10 @@ module.exports = {
     'prettier/prettier': 'error',
     'import/extensions': 'off',
     'no-console': 'off',
+    'comma-dangle': 0,
+    'no-underscore-dangle': 0,
+    'consistent-return': 0,
+    'no-undef': 0,
+    'object-curly-newline': 0,
   },
 };
